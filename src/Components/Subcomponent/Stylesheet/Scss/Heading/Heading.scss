@@ -1,0 +1,74 @@
+.sectionHeading7 h2{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.sectionSubHeading7 p{
+    color: rgb(233, 233, 233);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+
+
+// .heading-main{
+//     margin-left: 3.2rem !important;
+// }
+
+// About Course Detail Start
+.line-bar{
+    color: #FBAC17;
+    background-color: #FBAC17;
+    display: flex;
+    width: 100px;
+    height: .2rem;
+    margin: auto 1.5rem  auto 0rem;
+}
+
+.course-discrip-title .name h2 {
+    font-size: 32px;
+    color: #FBAC17;
+    font-weight: 400;
+}
+
+.titleCourse h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+// About Course Detail End
+
+@media(max-width:990px){
+    .line-bar{
+        color: #FBAC17;
+        background-color: #FBAC17;
+        display: flex;
+        width: 0px;
+        height: 0rem;
+        margin: auto .5rem  auto 0rem;
+    }
+    
+    .course-discrip-title .name h2 {
+        font-size: 1.4rem;
+        color: #FBAC17;
+        font-weight: 400;
+    }
+    
+    .titleCourse h1 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: auto .5rem  auto 0rem;
+        text-align: center;
+    }
+}
+
+
+.certificate h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.certificate h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}

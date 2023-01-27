@@ -1,0 +1,19 @@
+/* @media (max-width:880px){ */
+#img1, #img2, #img3, #img7, #img8 {
+  width: 230px;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8 {
+  height: 100px;
+}
+
+/* } */
+.back-gound {
+  background: linear-gradient(to left, #002157, #811300);
+}
+
+.service-bg {
+  background: linear-gradient(to left, #002157, #811300);
+}
+
+/*# sourceMappingURL=Award.css.map */

@@ -1,0 +1,82 @@
+/* .heroBanner{
+  background-image: url(../../../image/mainabnner.jpg);
+  height: 100vh;
+  background-size: cover;
+} */
+
+.heroBanner video {
+    height: 100%;
+    width: 100%;
+  }
+  .inner-content {
+    position: absolute;
+    top: 30%;
+    align-items: center;
+  }
+  
+  .brandName,
+  .brandTagline,
+  .bannerBtn {
+    text-align: center;
+  }
+  
+  .brandName h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #034B7B;
+  }
+  
+  .brandTagline h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #034B7B;
+  }
+  
+  .bannerBtn .button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: .6rem 4rem;
+    color: white;
+    background-color: #ED5434;
+    // border: 0.2rem solid whitesmoke;
+    // border-radius: 2.5rem;
+    // padding: 0.3rem 1.8rem;
+  }
+  
+  .bannerBtn .button:hover {
+    // background-color: white;
+    // border: 0.2rem solid rgb(0, 0, 0);
+    color: white;
+    background-color: #d43f21;
+  }
+  
+  .bannerBtn .button:not(:hover) {
+    // background-color: rgb(0, 0, 0);
+    // border: 0.2rem solid rgb(255, 255, 255);
+    // color: rgb(255, 255, 255);
+  }
+  
+  .bannerBtn .button i {
+    font-weight: 900;
+  }
+  
+  @media (max-width: 700px) {
+    .brandName h1 {
+      font-size: 4rem;
+    }
+  
+    .brandTagline h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 1025px) {
+    .heroBackground video {
+      background-size: cover;
+    }
+    .heroBanner video {
+      height: 100vh !important;
+      width: auto !important;
+    }
+  }
+  

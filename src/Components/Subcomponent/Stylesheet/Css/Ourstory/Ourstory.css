@@ -1,0 +1,13 @@
+.icon-box i {
+  font-size: 3.5rem;
+}
+
+.bg-img {
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(0, 33, 71, 0.671), rgba(0, 33, 71, 0.637)), url(../../../../../image/orca\ asset/ourstory.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=Ourstory.css.map */

@@ -1,0 +1,82 @@
+.innerCardContext {
+  height: 65vh;
+  width: 33vw;
+  margin: auto;
+  z-index: 100;
+  border-radius: 0.7rem;
+  text-align: center;
+}
+
+.innerCardContextCen {
+  height: 80vh;
+  width: 33vw;
+  z-index: 300;
+  border-radius: 0.7rem;
+  text-align: center;
+}
+
+.caseImg1 {
+  background-size: cover;
+  background-image: url(../../../../../image/orca\ asset/case1.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+}
+
+.caseImg2 {
+  background-size: cover;
+  background-image: url(../../../../../image/orca\ asset/case2.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+}
+
+.caseImg3 {
+  background-size: cover;
+  background-image: url(../../../../../image/orca\ asset/case3.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+}
+
+.inner-con-case {
+  position: relative;
+}
+
+.logo-case img {
+  width: 90px;
+  height: 90px;
+}
+
+.rateOfGrowth i {
+  font-size: 3rem;
+}
+
+.rateOfGrowth h1 {
+  font-size: 4rem;
+}
+
+.caseTextCon h6 {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 990px) {
+  .cardCaseStudy {
+    flex-wrap: wrap;
+  }
+  .innerCardContext {
+    height: 62vh;
+    width: 85vw;
+    margin: auto;
+    z-index: 100;
+    border-radius: 0.7rem;
+    text-align: center;
+    margin: 0.5rem 0.3rem;
+  }
+  .innerCardContextCen {
+    height: 65vh;
+    width: 100vw;
+    z-index: 500;
+    border-radius: 0.7rem;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=Casestudy.css.map */

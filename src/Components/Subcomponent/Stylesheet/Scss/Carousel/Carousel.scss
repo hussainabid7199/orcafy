@@ -1,0 +1,289 @@
+/* success section start  */
+
+.success-main {
+  height: max-content;
+  width: 100%;
+  justify-content: center;
+  // margin-top: 18rem 0rem;
+}
+
+@media (max-width: 780px) {
+  .success-main {
+    display: block;
+    visibility: collapse;
+    height: 0rem;
+    margin: 0rem;
+    padding: 0rem;
+  }
+}
+
+.success {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(0, 33, 71, 0.671), rgba(0, 33, 71, 0.637)), url(../../../../../image/orca\ asset/success.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.carousel-inner {
+  height: 100% !important;
+}
+
+#column {
+  float: left;
+  width: 50%;
+  flex: 50%;
+}
+
+.carousel-container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.carousel-container {
+  display: flex;
+  height: max-content;
+}
+
+.carousel-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  padding-left: 80px;
+}
+
+.carousel-img img {
+  height: auto;
+  width: 385px !important;
+  position: absolute;
+}
+
+.carousel-item {
+  height: fit-content;
+}
+
+.success-content {
+  height: 100%;
+  width: 100%;
+  margin: 79px 25px;
+}
+
+.name h2 {
+  color: #ffbf69;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 650;
+  width: 100%;
+  height: max-content;
+}
+
+.desigination {
+  margin-top: 3%;
+}
+
+.desigination h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.content {
+  margin-top: 3%;
+  margin-right: 6%;
+  padding-right: 5%;
+}
+
+.content p {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 350;
+}
+
+.brand-logo {
+  width: 9.8rem;
+  height: 9rem;
+}
+
+.brand-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.brand-content {
+  text-align: center;
+}
+
+.brand-content h3 {
+  font-size: 2rem;
+  font-weight: 600 !important;
+  color: white;
+}
+
+.brand-content p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+.carousel-indicators {
+  margin-bottom: -9px;
+}
+
+/* success mobile responsive */
+
+.m-success  {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-image: linear-gradient(to right, rgba(0, 33, 71, 0.671), rgba(0, 33, 71, 0.637)), url(../../../../../image/orca\ asset/success.jpg);
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+
+.name-m h2 {
+  color: #ffbf69;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.desigination-m h5 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.para-m {
+  color: rgba(231, 231, 231, 0.952);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+@media (min-width: 780px) {
+  .mobile-success {
+    display: block;
+    visibility: collapse;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 779px) {
+  .mobile-success,
+  .m-success {
+    width: 100%;
+    height: max-content;
+    margin: 0rem 0rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 779px) {
+  .carousel-inner,
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 779px) {
+  .success-content-m {
+    margin-right: 15%;
+    margin-left: 12%;
+    text-align: center;
+    height: max-content;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 779px) {
+  .success-content-m {
+    position: relative;
+    text-align: center;
+    height: max-content;
+    width: 80%;
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 779px) {
+  .success-content-m img {
+    height: auto;
+    width: 325px;
+    margin-top: 11rem;
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 779px) {
+  .content-success-p-m {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: max-content;
+    // margin-top: 5rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 779px) {
+  .carousel-indicators {
+    display: block;
+    visibility: collapse;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 321px) {
+  .carousel-indicators {
+    display: block;
+    visibility: collapse;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 779px) {
+  .socialmediaIcon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 880px) {
+  .brand-logo-m {
+    width: 6.8rem;
+    height: auto;
+  }
+
+  .brand-logo-m img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .brand-container {
+    height: max-content;
+  }
+  
+  .brand-content {
+    margin: auto;
+  }
+  
+  .brand-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .brand-content p {
+    font-size: 1.2rem;
+  }
+}
+
+/* success mobile responsive */
+
+/* success section end  */

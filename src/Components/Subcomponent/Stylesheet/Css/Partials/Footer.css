@@ -1,0 +1,61 @@
+.brandBottom {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.border-light {
+  padding: 30px;
+}
+
+.overlay-top {
+  margin-top: 0px;
+}
+
+.navbar-brand img {
+  width: 8rem;
+  /* box-shadow: 0 .2rem .3rem rgb(0, 0, 0); */
+  position: relative;
+  right: 2%;
+}
+
+.bg-wheat {
+  background-color: #040944;
+}
+
+.bg-blue {
+  background-color: rgb(7, 0, 70);
+}
+
+.socialMedia a {
+  font-size: 2rem;
+  margin: 0rem 0.5rem;
+}
+
+.socialMedia a i:hover {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.underdev {
+  height: 100vh;
+}
+
+.under-construction {
+  position: absolute;
+  top: 30%;
+}
+
+.under-construction {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #555;
+}
+
+.under-construction h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=Footer.css.map */

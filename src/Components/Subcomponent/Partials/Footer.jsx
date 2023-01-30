@@ -1,5 +1,6 @@
 // import "./Footer.css"
-import BrandIcon from "../../../image/orca asset/image 10.png";
+
+import BrandLogo from "../../../image/brandLogo/logo2.png";
 
 
 
@@ -14,7 +15,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-6 mb-5">
                             <a href="/" className="navbar-brand">
-                                <img src={BrandIcon} alt="" className="my-2" />
+                                <img src={BrandLogo} alt="" className="my-2" />
                             </a>
                             <p className="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p>
                         </div>

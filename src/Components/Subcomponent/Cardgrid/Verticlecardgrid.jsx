@@ -9,16 +9,15 @@ import CardImg6 from "../../../image/orca asset/customers engagement.png";
 
 const dataCollectionTop = [
     {
-        id: 1, choice: "mainHead", title: "Google Ads", subHeading: "Google Ads is a pay-per-click (PPC) advertising platform", image1: CardImg1, image2: CardImg2, Top: "card-top cardFirstTop", Bottom: "card-bottom cardFirstBottom", navUrl: "/service"
+        id: 1, choice: "mainHead", title: "Google Ads", subHeading: "Google Ads is a pay-per-click (PPC) advertising platform", image1: CardImg1, image2: CardImg2, Top: "card-top cardFirstTop", Bottom: "card-bottom cardFirstBottom", navUrl: "/Googleads"
     },
     {
-        id: 2, choice: "mainHead", title: "Social Media Advertising", subHeading: "Social media advertising is a powerful way", image1: CardImg3, image2: CardImg4, Top: "card-top cardSecondTop", Bottom: "card-bottom cardSecondBottom", navUrl: "/service"
+        id: 2, choice: "mainHead", title: "Social Media Advertising", subHeading: "Social media advertising is a powerful way", image1: CardImg3, image2: CardImg4, Top: "card-top cardSecondTop", Bottom: "card-bottom cardSecondBottom", navUrl: "/Sma"
     },
     {
-        id: 3, choice: "mainHead", title: "Socal Media Management", subHeading: "Social media management is the process of", image1: CardImg5, image2: CardImg6, Top: "card-top cardThirdTop", Bottom: "card-bottom cardThirdBottom", navUrl: "/service"
+        id: 3, choice: "mainHead", title: "Socal Media Management", subHeading: "Social media management is the process of", image1: CardImg5, image2: CardImg6, Top: "card-top cardThirdTop", Bottom: "card-bottom cardThirdBottom", navUrl: "/socialmediamanagement"
     }
 ];
-
 
 
 const Verticlecardgrid = () => {

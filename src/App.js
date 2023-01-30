@@ -14,7 +14,21 @@ import Aboutus from "./Components/Client/Aboutus/Aboutus";
 import Casestudy from "./Components/Client/Casestudy/Casestudy";
 import Underdevelopment from "./Components/Subcomponent/Partials/Underdevelopment";
 import Getaproposal from "./Components/Subcomponent/Partials/Getproposal";
-import E404 from "./Components/Subcomponent/Partials/E404";
+// import E404 from "./Components/Subcomponent/Partials/E404";
+// import Content from "./Components/Subcomponent/Content/Content";
+import Emailmarketing from "./Components/Subcomponent/Content/Emailmarketing";
+import Googleads from "./Components/Subcomponent/Content/Googleads";
+import Sma from "./Components/Subcomponent/Content/Sma";
+import Smam from "./Components/Subcomponent/Content/Smam";
+import Googledisplay from "./Components/Subcomponent/Content/Googledispaly";
+import Smm from "./Components/Subcomponent/Content/Smm";
+import Mas from "./Components/Subcomponent/Content/Mas";
+import Seo from "./Components/Subcomponent/Content/Seo";
+import Wdc from "./Components/Subcomponent/Content/Wdc";
+
+const patn = window.location.pathname;
+console.log(patn);
+
 
 function App() {
   return (
@@ -29,16 +43,16 @@ function App() {
           <Route exact path="/contactus" element={<Contactus />} />
           <Route exact path="/underdevelopment" element={<Underdevelopment />} />
           <Route exact path="/getaproposal" element={<Getaproposal />} />
-          <Route exact path="/service/googleads" element={<E404 ContentTitle={"Google Ads Content"}/>} />
-          <Route exact path="/service/sma" element={<E404 ContentTitle={"Social Media Advertising Content"}/>} />
-          <Route exact path="/service/smam" element={<E404 ContentTitle={"Social Media Account Management Content"}/>} />
-          <Route exact path="/service/gda" element={<E404 ContentTitle={"Google Display Advertising Content"}/>} />
-          <Route exact path="/service/socialmediaads" element={<E404 ContentTitle={"Social Media Ads Content"}/>} />
-          <Route exact path="/service/socialmediamanagement" element={<E404 ContentTitle={"Social Media Management Content"}/>} />
-          <Route exact path="/service/mas" element={<E404 ContentTitle={"Marketing Automation Service Content"}/>} />
-          <Route exact path="/service/seo" element={<E404 ContentTitle={"Search Engine Optimization Content"}/>} />
-          <Route exact path="/service/websitedesign&creation" element={<E404 ContentTitle={"Website Design & Creation Content"}/>} />
-          <Route exact path="/service/emailmarketing" element={<E404 ContentTitle={"Email Marketing Content"}/>} />
+          <Route exact path="/googleads" element={<Googleads/>} />
+          <Route exact path="/sma" element={<Sma/>} />
+          <Route exact path="/smam" element={<Smam/>} />
+          <Route exact path="/gda" element={<Googledisplay/>} />
+          <Route exact path="/socialmediaads" element={<Sma/>} />
+          <Route exact path="/socialmediamanagement" element={<Smm/>} />
+          <Route exact path="/mas" element={<Mas/>} />
+          <Route exact path="/seo" element={<Seo/>} />
+          <Route exact path="/websitedesign&creation" element={<Wdc/>} />
+          <Route exact path="/emailmarketing" element={<Emailmarketing/>} />
         </Routes>
       </div>
       <Footer />

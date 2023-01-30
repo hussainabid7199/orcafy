@@ -7,6 +7,7 @@ import Contact from "../../Subcomponent/Contact/Contact";
 import Ourstory from "../../Subcomponent/Ourstory/Ourstory";
 import Heading from "../../Subcomponent/Heading/Heading";
 import Verticlecardgrid2 from "../../Subcomponent/Cardgrid/Verticlecardgrid2";
+import Heading2 from "../../Subcomponent/Heading/Heading2";
 
 
 
@@ -23,7 +24,7 @@ const Index = () => {
             {/* Certificate & Award  */}
             <div className="back-gound pt-2 pb-5 my-5">
                 {/* <Heading7 /> */}
-                <Heading Heading={"Certificate & Award"} Subheading={"The theree main how we can help your business grow"} />
+                <Heading2/>
                 <Awards />
             </div>
             {/* Certificate & Award  */}

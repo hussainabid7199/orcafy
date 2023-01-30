@@ -16,7 +16,7 @@ const Servicenavtilegrid = () => {
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Google Ads"}
-                                serviceUrl={"/service/googleads"}
+                                serviceUrl={"/googleads"}
                                 servInn={"service-inner"}
                             />
                         </div>
@@ -24,7 +24,7 @@ const Servicenavtilegrid = () => {
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Social Media Advertising"}
-                                serviceUrl={"/service/sma"}
+                                serviceUrl={"/sma"}
                                 servInn={"service-inner"}
                             />
                         </div>
@@ -32,7 +32,7 @@ const Servicenavtilegrid = () => {
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Social Media Account Management"}
-                                serviceUrl={"/service/smam"}
+                                serviceUrl={"/smam"}
                                 servInn={"service-inner"}
                             />
                         </div>
@@ -42,7 +42,7 @@ const Servicenavtilegrid = () => {
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Google Display Advertising"}
-                                serviceUrl={"/service/gda"}
+                                serviceUrl={"/gda"}
                                 servInn={"service-inner"}
                             />
                         </div>
@@ -50,7 +50,7 @@ const Servicenavtilegrid = () => {
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Social Media Ads"}
-                                serviceUrl={"/service/socialmediaads"}
+                                serviceUrl={"/socialmediaads"}
                                 servInn={"service-inner"}
                             />
                         </div>
@@ -58,7 +58,7 @@ const Servicenavtilegrid = () => {
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Social Media Management"}
-                                serviceUrl={"/service/socialmediamanagement"}
+                                serviceUrl={"/socialmediamanagement"}
                                 servInn={"service-inner"}
                             />
                         </div>
@@ -68,7 +68,7 @@ const Servicenavtilegrid = () => {
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Marketing Automation Service"}
-                                serviceUrl={"/service/mas"}
+                                serviceUrl={"/mas"}
                                 servInn={"service-inner"}
                             />
                         </div>
@@ -76,23 +76,31 @@ const Servicenavtilegrid = () => {
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Search Engine Optimization (SEO)"}
-                                serviceUrl={"/service/seo"}
+                                serviceUrl={"/seo"}
                                 servInn={"service-inner"}
                             />
                         </div>
-                        <div className="col-xl-6 col-sm-4 link-service serv9">
+                        <div className="col-xl-5 col-sm-4 link-service serv9">
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Website Design & Creation"}
-                                serviceUrl={"/service/websitedesign&creation"}
+                                serviceUrl={"/websitedesign&creation"}
                                 servInn={"service-inner"}
                             />
                         </div>
-                        <div className="col-xl-6 col-sm-4 link-service serv6">
+                        <div className="col-xl-4 col-sm-4 link-service serv6">
                             <Servicetile
                                 servImg={logoRocket}
                                 servTitle={"Email Marketing"}
-                                serviceUrl={"/service/emailmarketing"}
+                                serviceUrl={"/emailmarketing"}
+                                servInn={"service-inner"}
+                            />
+                        </div>
+                        <div className="col-xl-3 col-sm-4 link-service serv3">
+                            <Servicetile
+                                servImg={logoRocket}
+                                servTitle={"Social Media Management"}
+                                serviceUrl={"/smm"}
                                 servInn={"service-inner"}
                             />
                         </div>

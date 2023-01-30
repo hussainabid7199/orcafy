@@ -3,9 +3,9 @@ import Data from "./Data";
 const Servicesidebar = () => {
     return (
         <>
-            <div className="container-fluid d-flex">
-                <aside className="col-3 serviceSideBar">
-                    <ul className="nav nav-pills flex-column mb-auto mx-3">
+        
+                <aside className="serviceSideBar">
+                    <ul className="nav nav-pills flex-column mb-auto">
                         <li className="nav-item">
                             {Data.map((value) => {
                                 return (
@@ -13,6 +13,7 @@ const Servicesidebar = () => {
                                         <Datalink
                                             key={value.id}
                                             title={value.Title}
+                                            linkUrl={value.linkUrl}
                                         />
                                     </>
                                 )
@@ -21,12 +22,7 @@ const Servicesidebar = () => {
                     </ul>
                 </aside>
 
-               
-
-
-
-            </div>
-
+            
 
         </>
     )
@@ -38,7 +34,7 @@ export default Servicesidebar;
 const Datalink = (props) => {
     return (
         <>
-            <Link to={props.linkUrl} className="nav-link text-dark my-2 aside-link" aria-current="page" onClick={addActiveBtn}>
+            <Link to={props.linkUrl}  className="nav-link text-dark my-2 aside-link" aria-current="page">
                 <svg className="bi me-2" width="16" height="16"><use href={props.linkUrl} /></svg>
                 <b>{props.title}</b>
             </Link>
@@ -70,13 +66,13 @@ const Datalink = (props) => {
 //     )
 // }
 
-function addActiveBtn() {
-    const btnActive = document.querySelectorAll(".aside-link");
-    const btnLength = btnActive.length;
+// function addActiveBtn() {
+//     const btnActive = document.querySelectorAll(".aside-link");
+//     const btnLength = btnActive.length;
 
-    for (let i = 0; i < btnLength; i++) {
-        btnActive[i].addEventListener("click", () => {
-            btnActive.classList.add("avtive");
-        })
-    }
-}
+//     for (let i = 0; i < btnLength; i++) {
+//         btnActive[i].addEventListener("click", () => {
+//             btnActive.classList.add("avtive");
+//         })
+//     }
+// }

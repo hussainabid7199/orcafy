@@ -16,9 +16,9 @@
 }
 
 .brandIconInner {
-  width: 85px;
+  width: 100px;
   height: auto;
-  margin: 0.8rem 0.4rem;
+  margin: 0rem 0rem;
   z-index: 300;
 }
 

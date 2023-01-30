@@ -1,395 +1,65 @@
 const Data = [
-
     {
         id:1,
         Title: "Google Ads",
-        TitleID: "#GoogleAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-        
-
+        linkUrl: "/googleads",
+        discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business."
     },
     {
         id:2,
-        Title: "Sony Ads",
-        TitleID: "#SonyAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-
+        Title: "Social Media Advertising",
+        linkUrl: "/sma",
+        discription: "Social media advertising refers to the practice of promoting products, services, or brands on various social media platforms such as Facebook, Instagram, Twitter, and LinkedIn. The goal of social media advertising is to reach a large audience and increase brand awareness, drive website traffic, generate leads, and ultimately boost sales."
     },
     {
-        id:2,
-        Title: "Lopster Ads",
-        TitleID: "#LopsterAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-
+        id:3,
+        Title: "Social Media Account Manageme...",
+        linkUrl: "/smam",
+        discription: "Social media account management involves creating and maintaining a presence on various social media platforms for a business or organization. This can include creating and curating content, engaging with followers, monitoring and analyzing metrics, and using social media advertising."
     },
     {
-        id:1,
-        Title: "Kill Ads",
-        TitleID: "#KillAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-        
-
+        id:4,
+        Title: "Google Display Advertising",
+        linkUrl: "/gda",
+        discription: "Social media advertising is a powerful way for businesses to reach their target audience and promote their products or services on popular social for businesses to reach their target audience and promote their products or services."
+    }, 
+    {
+        id:5,
+        Title: "Social Media Ads",
+        linkUrl: "/socialmediaads",
+        discription: "Social media advertising is a powerful way for businesses to reach their target audience and promote their products or services on popular social media platforms like Facebook, Instagram, Twitter, and LinkedIn."
     },
     {
-        id:2,
-        Title: "Sill Ads",
-        TitleID: "#SillAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-
+        id:6,
+        Title: "Social Media Management",
+        linkUrl: "/socialmediamanagement",
+        discription: "Social media management is the process of creating and publishing content, engaging with followers, and analyzing performance on social media platforms to achieve specific business objectives. It is an important part of a digital marketing strategy and can help businesses increase brand awareness, generate leads, and drive sales."
     },
     {
-        id:2,
-        Title: "Bill Ads",
-        TitleID: "#BillAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-
+        id:7,
+        Title: "Marketing Automation Service",
+        linkUrl: "/mas",
+        discription: "Marketing automation is the use of software and technology to automate repetitive marketing tasks and workflows, allowing businesses to scale their marketing efforts and improve efficiency. It is an important part of a digital marketing strategy and can help businesses increase brand awareness, generate leads, and drive sales."
     },
     {
-        id:1,
-        Title: "Mill Ads",
-        TitleID: "#MillAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-        
-
+        id:8,
+        Title: "Serach Engine Optimisation (SEO)",
+        linkUrl: "/seo",
+        discription: "Search engine optimization (SEO) is the process of improving the ranking of a website on search engines like Google in order to increase the visibility and traffic to the site. SEO is an important part of a digital marketing strategy and can help businesses increase brand awareness, generate leads, and drive sales."
     },
     {
-        id:2,
-        Title: "Hill Ads",
-        TitleID: "#HillAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-
+        id:9,
+        Title: "Website Design & Creation",
+        linkUrl: "/websitedesign&creation",
+        discription: "Website design and creation involve planning, designing, and building a website that meets the specific needs and goals of a business. It is an important part of a digital marketing strategy and can help businesses establish their online presence, increase brand awareness, generate leads, and drive sales."
     },
     {
-        id:2,
-        Title: "House Ads",
-        TitleID: "#HouseAds",
-        Content: {
-            Discription: "Google Ads is a pay-per-click (PPC) advertising platform that allows businesses to display ads on the Google search results page and other websites that are part of the Google Ads network. With Google Ads, businesses can target specific keywords and demographics to reach potential customers at the moment they are searching for products or services like those offered by the business.",
-            GoogleAdsList: {
-                L1: "Google Ads is a powerful advertising platform that helps businesses reach potential customers at the exact moment they are searching for products or services related to the business.",
-                L2: "With Google Ads, you only pay when someone clicks on your ad, making it a cost-effective way to reach your target audience.",
-                L3: "Google Ads offers a variety of ad formats, including search ads, display ads, video ads, and shopping ads, to reach potential customers in different ways.",
-                L4: "Detailed performance reporting and analytics allow you to track the effectiveness of your campaigns and make informed decisions about your advertising efforts.",
-                L5: "Integrate Google Ads with your other digital marketing channels for a comprehensive and effective marketing strategy."
-            },
-            GoogleAdsConclusion: "By using Google Ads, you can effectively reach your target audience, drive qualified traffic to your website, and increase brand awareness and sales.",
-            GoogleAdsProcess: {
-                AdsProcessTitle: "Google Ads Process & Steps:",
-                AdsProcessList: {
-                    List1: {
-                        ListTitle: "Create your ad campaign:",
-                        ListContent: "Once you've set up your account, determined your budget, and identified your target audience, you can start creating your ad campaign. This involves choosing the right ad format (e.g. search ads, display ads, video ads), creating ad copy and visuals, and setting up targeting options."
-                    },
-                    List2: {
-                        ListTitle: "Monitor and optimize your campaign:",
-                        ListContent: " Once your ad campaign is live, it's important to monitor its performance and make adjustments as needed. This may involve testing different ad copy, adjusting your bid amount, or adding negative keywords to fine-tune your targeting."
-                    },
-                    List3: {
-                        ListTitle: "Set up a Google Ads account:",
-                        ListContent: "To get started with Google Ads, you'll need to create a Google Ads account. This is a simple process that involves providing some basic information about your business and agreeing to the terms of service."
-                    },
-                    List4: {
-                        ListTitle: "Determine your advertising budget:",
-                        ListContent: "Before you start creating your Google Ads campaign, it's important to determine how much you're willing to spend on advertising. This will help you set up your budget and decide on the right bidding strategy for your campaign."
-                    },
-                    List5: {
-                        ListTitle: "Identify your target audience:",
-                        ListContent: "To create an effective Google Ads campaign, you'll need to identify your target audience. This includes demographics like age, gender, location, and interests, as well as the specific keywords and phrases that your target audience is likely to search for."
-                    }
-
-                }
-            }
-        }
-
+        id:10,
+        Title: "Email Marketing",
+        linkUrl: "/emailmarketing",
+        discription: "Email marketing is the process of sending targeted and personalized emails to a list of subscribers in order to promote a business's products or services. It is an important part of a digital marketing strategy and can help businesses increase brand awareness, generate leads, and drive sales."
     }
+   
 ]
 
 

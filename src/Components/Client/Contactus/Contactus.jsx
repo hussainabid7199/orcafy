@@ -1,10 +1,12 @@
-import Underdevelopment from "../../Subcomponent/Partials/Underdevelopment";
+import Contact from "../../Subcomponent/Contact/Contact";
+
 
 
 const Contactus = () =>{
     return(
         <>
-            <Underdevelopment  pageName = {"Contact Us"}/>
+            
+        <Contact/>
 
 
 

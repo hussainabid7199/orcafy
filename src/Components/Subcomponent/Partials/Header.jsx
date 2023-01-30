@@ -1,5 +1,5 @@
 // import  Navbar, {Navigationactive} from "../Navbar/Navbar";
-import BrandLogo from "../../../image/brandLogo/logo.png";
+import BrandLogo from "../../../image/brandLogo/logo4.png";
 import { NavLink } from "react-router-dom";
 
 

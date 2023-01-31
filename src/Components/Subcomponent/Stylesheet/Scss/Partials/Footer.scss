@@ -1,61 +1,105 @@
-.brandBottom{
-    border-color: rgba(256, 256, 256, .1) !important;
+.brandBottom {
+  border-color: rgba(256, 256, 256, 0.1) !important;
 }
 
-.border-light{
-    padding: 30px;
+.border-light {
+  padding: 30px;
 }
 
-.overlay-top{
-    margin-top: 0px;
+.overlay-top {
+  margin-top: 0px;
 }
 
-.navbar-brand img{
-    width: 8rem;
-    /* box-shadow: 0 .2rem .3rem rgb(0, 0, 0); */
-   position: relative;
-   right: 2%;
+.navbar-brand img {
+  width: 8rem;
+  /* box-shadow: 0 .2rem .3rem rgb(0, 0, 0); */
+  position: relative;
+  right: 2%;
 }
 
-
-.bg-wheat{
-    background-color: #040944;
+.bg-wheat {
+  background-color: #040944;
 }
 
-.bg-blue{
-    background-color: rgb(7, 0, 70);
+.bg-blue {
+  background-color: rgb(7, 0, 70);
 }
 
-.socialMedia a{
-    font-size: 2rem;
-    margin: 0rem .5rem;
+.socialMedia a {
+  font-size: 2rem;
+  margin: 0rem 0.5rem;
 }
 
-.socialMedia a i:hover{
-   color: blue;
+.socialMedia a i:hover {
+  color: blue;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.underdev{
-    height: 100vh;
-}
-
-.under-construction{
-    
-     position: absolute;
-    top: 30%;
+.underdev {
+  height: 100vh;
 }
 
 .under-construction {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    color: #555;
+  position: absolute;
+  top: 30%;
+}
+
+.under-construction {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #555;
 }
 
 .under-construction h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
+
+// ============ Content Css ==============
+.content-heading h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.process ul li {
+  list-style-type: none;
+}
+
+.process ul li p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.process ul li p b {
+  font-size: 1.6rem;
+}
+
+.bullet-point ul li p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.conclusion h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.discription p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.process-heading h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.main-con{
+  position: sticky;
+  overflow: scroll;
+  height: 100vh;
+}
+// ============ Content Css ==============

@@ -69,7 +69,7 @@ const Header = () => {
 
         <>
             <div className="headerComponent d-flex justify-content-between container-fluid">
-                <div className="brandIconInner">
+                <div className="brandIconInner" onClick={"/"}>
                     <img src={BrandLogo} alt="" className="brandImage" />
                 </div>
                 <div className="navigationActiveBtn">
@@ -94,7 +94,7 @@ const Header = () => {
                         </div>
                     </div>
                     <ul className="nav nav-pills flex-column mb-auto mx-3">
-                        <li className="nav-item">
+                        <li>
                             <NavLink to={"/"} className="nav-link text-dark" aria-current="page">
                                 <svg className="bi me-2" width="16" height="16"><use href="#home" /></svg>
                                 <b>Home</b>
@@ -127,6 +127,15 @@ const Header = () => {
                         </li>
                     </ul>
                     <hr />
+                    <div className="container d-flex justify-content-center">
+                        <div className="icon-social">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        {/* <i class="bi bi-whatsapp"></i> */}
+                        {/* <i class="bi bi-youtube"></i> */}
+                        <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
                     <div className="container-fluid text-black border-top py-4 brandBottom">
                         <div className="container">
                             <div className="row">

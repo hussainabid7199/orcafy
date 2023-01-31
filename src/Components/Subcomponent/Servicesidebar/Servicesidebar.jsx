@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Data from "./Data";
 const Servicesidebar = () => {
     return (
         <>
         
-                <aside className="serviceSideBar">
-                    <ul className="nav nav-pills flex-column mb-auto">
+                <aside className="serviceSideBar mx-2 px-5">
+                     <h3 className="text-center py-2">Quick Navigation</h3>
+                    <ul className="nav nav-pills my-3 py-3 flex-column mb-auto">
                         <li className="nav-item">
                             {Data.map((value) => {
                                 return (
@@ -34,10 +35,10 @@ export default Servicesidebar;
 const Datalink = (props) => {
     return (
         <>
-            <Link to={props.linkUrl}  className="nav-link text-dark my-2 aside-link" aria-current="page">
+            <NavLink to={props.linkUrl}  className="nav-link text-dark my-2 aside-link" aria-current="page">
                 <svg className="bi me-2" width="16" height="16"><use href={props.linkUrl} /></svg>
                 <b>{props.title}</b>
-            </Link>
+            </NavLink>
         </>
     )
 }

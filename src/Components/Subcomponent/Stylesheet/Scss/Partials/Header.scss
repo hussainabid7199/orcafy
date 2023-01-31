@@ -19,7 +19,7 @@
     width: 100px;
     height: auto;
     margin: 0rem 0rem;
-    z-index: 300;
+    z-index: 10;
   }
   
   .brandIconInner img {
@@ -96,7 +96,13 @@
   /* ///////////////////////////////////////////////////////// */
   
   .nav{
-    margin-top: 4.5rem;
+    margin-top: 2rem;
+    // position: relative;
+    // top: 1%;
+  }
+
+  .nav li{
+    font-size: 1.2rem;
   }
   
   .bd-placeholder-img {
@@ -211,14 +217,15 @@
     height: 0vh;
     visibility: collapse;
     transition-timing-function: ease-in-out;
-    transition: 0.40s;
+    transition: 0.10s;
     animation: nav 0.25s alternate-reverse;
-    z-index: -500;
+    z-index: -700;
   }
   
   .outer {
     width: 0px;
     height: 0vh;
+    z-index: -700;
   }
   
   .outerActive {
@@ -253,10 +260,20 @@
   @media (max-width: 700px) {
     .sideBarActive {
       position: relative;
-      width: 85vw !important;
+      width: 100vw !important;
       height: 100vh !important;
       visibility: visible !important;
-      z-index: 200;
+      transition-timing-function: none;
+      transition: none;
+      animation: none;
+      z-index: 3000;
     }
   }
   
+
+  .icon-social i{
+    margin: .5rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 63);
+    cursor: pointer;
+  }

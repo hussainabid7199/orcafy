@@ -58,4 +58,48 @@ a {
   margin-bottom: 20px;
 }
 
+.content-heading h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.process ul li {
+  list-style-type: none;
+}
+
+.process ul li p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.process ul li p b {
+  font-size: 1.6rem;
+}
+
+.bullet-point ul li p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.conclusion h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.discription p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.process-heading h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.main-con {
+  position: sticky;
+  overflow: scroll;
+  height: 100vh;
+}
+
 /*# sourceMappingURL=Footer.css.map */

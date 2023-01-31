@@ -1,11 +1,11 @@
 @import url(./Components/Subcomponent/Stylesheet/Css/Orcafy.css);
 
-@import url('https://fonts.cdnfonts.com/css/quicksand');
+/* @import url('https://fonts.cdnfonts.com/css/open-sans'); */
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand';
+    font-family: 'Open Sans';
 }
 
 body{

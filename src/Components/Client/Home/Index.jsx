@@ -8,6 +8,7 @@ import Ourstory from "../../Subcomponent/Ourstory/Ourstory";
 import Heading from "../../Subcomponent/Heading/Heading";
 import Verticlecardgrid2 from "../../Subcomponent/Cardgrid/Verticlecardgrid2";
 import Heading2 from "../../Subcomponent/Heading/Heading2";
+// import Kform from "../../Subcomponent/Kform/Kform";
 
 
 
@@ -55,6 +56,8 @@ const Index = () => {
                 <Contact />
             {/* </div> */}
             {/* Contact  */}
+
+            {/* <Kform/> */}
 
 
         </>
